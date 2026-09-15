@@ -1,0 +1,10 @@
+/* 淡蓝色半透明卡片效果 */
+#recent-posts > .recent-post-item, .card-widget {
+  background: rgba(255, 255, 255, 0.65) !important; /* 0.65是透明度，可以自己调小 */
+  backdrop-filter: blur(10px); /* 磨砂玻璃效果 */
+}
+
+/* 淡蓝色主题覆盖 */
+#page-header::before {
+  background-color: rgba(135, 206, 235, 0.2) !important; /* 顶部淡蓝色遮罩 */
+}
